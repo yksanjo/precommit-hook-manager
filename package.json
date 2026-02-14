@@ -1,11 +1,11 @@
 {
-  "name": "claude-code-review-assistant",
+  "name": "precommit-hook-manager",
   "version": "1.0.0",
   "type": "module",
-  "description": "A Claude-powered code review assistant that analyzes pull requests and provides thoughtful, context-aware feedback",
+  "description": "Pre-commit hook manager - automate code checks before every commit",
   "main": "src/index.js",
   "bin": {
-    "code-review": "./src/index.js"
+    "precommit-hook": "./src/index.js"
   },
   "scripts": {
     "start": "node src/index.js",
